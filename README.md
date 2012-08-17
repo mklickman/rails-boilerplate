@@ -25,6 +25,7 @@ A stock install of Ruby on Rails 3.2 with some commonly used gems and settings a
 
         git clone git@github.com:mklickman/rails-boilerplate.git
         cd rails-boilerplate
+        y
         bundle install
         bundle exec compass init rails
         rails generate ie_conditional_tag:install
@@ -36,13 +37,12 @@ A stock install of Ruby on Rails 3.2 with some commonly used gems and settings a
 
 3. [Party like it's 1999](http://www.youtube.com/watch?v=JEcj2xi9Ctc)
 
-<hr />
-*NOTE: your app name will be set to "RailsBoilerplate", so you'll have to change any instance of 'RailsBoilerplate' to whatever you want your app to be called (in application.rb, for example). Quit whining, I'll write a script for that soon enough.*
-<hr />
+## "Find and Replace in Project"
+Your app name will be set to "RailsBoilerplate", so you'll have to change any instances of 'RailsBoilerplate' and 'rails-boilerplate' to whatever you want your app to be called (in application.rb, for example). Quit whining, I'll write a script for that soon enough.
 
 ## Still To Do
 - Add staging environment
-- Automate app renaming process (see above)
+- App renaming script (see above)
 
 ## Legal
 
