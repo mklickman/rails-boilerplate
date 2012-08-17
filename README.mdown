@@ -19,6 +19,7 @@
 ##Installation
 
 From terminal:
+
     git clone git@github.com:mklickman/rails-boilerplate.git
     cd rails-bp
     bundle install
