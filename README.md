@@ -23,7 +23,7 @@ A stock install of Ruby on Rails 3.2 with some commonly used gems and settings a
 
 1. From terminal:
 
-        git clone git@github.com:mklickman/rails-boilerplate.git
+        git clone git://github.com/mklickman/rails-boilerplate.git
         cd rails-boilerplate
         y
         bundle install
