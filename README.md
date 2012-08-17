@@ -29,11 +29,12 @@ A stock install of Ruby on Rails 3.2 with some commonly used gems and settings a
         bundle exec compass init rails
         rails generate ie_conditional_tag:install
 
+
 2. Create your local database
     - By default, the app will be looking for "rails-boilerplate_\*" (where "\*" is your environment). Edit your database.yml file if you want to use different db names.
     - I recommend using [Navicat](http://www.navicat.com) for managing your databases (free version [here](http://download.cnet.com/Navicat-Lite-Free-Multiple-Database-GUI/3000-10254_4-11748973.html))
 
-3. Party like it's 1999
+3. [Party like it's 1999](http://www.youtube.com/watch?v=JEcj2xi9Ctc)
 
 <hr />
 *NOTE: your app name will be set to "RailsBoilerplate", so you'll have to change any instance of 'RailsBoilerplate' to whatever you want your app to be called (in application.rb, for example). Quit whining, I'll write a script for that soon enough.*

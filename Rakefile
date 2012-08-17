@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-RailsBp::Application.load_tasks
+RailsBoilerplate::Application.load_tasks

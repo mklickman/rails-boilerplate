@@ -15,7 +15,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: rails-bp_development
+  database: rails-boilerplate_development
   pool: 5
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -39,11 +39,11 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: rails-bp_test
+  database: rails-boilerplate_test
   pool: 5
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: rails-bp_production
+  database: rails-boilerplate_production
   pool: 5

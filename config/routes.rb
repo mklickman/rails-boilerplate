@@ -1,4 +1,4 @@
-RailsBp::Application.routes.draw do
+RailsBoilerplate::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
