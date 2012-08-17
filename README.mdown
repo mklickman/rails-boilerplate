@@ -1,0 +1,36 @@
+#Rails Boilerplate
+
+##What's Included
+- Rails 3.2 (running on PostgreSQL)
+- [Powder](https://github.com/rodreegez/powder)
+- [Compass](http://compass-style.org)
+- [Paperclip](https://github.com/thoughtbot/paperclip)
+- [Kumade](https://github.com/thoughtbot/kumade#kumade-%E7%86%8A%E6%89%8B-)
+- [IE Conditional HTML Tag](https://github.com/bruce/ie_conditional_tag)
+- [SettingsLogic](https://github.com/binarylogic/settingslogic/#settingslogic)
+- Switched default YAML parser (Psych) back to Syck for SettingsLogic to work right (see boot.rb)
+
+##Prerequisites
+- [RVM](http://rvm.io)
+- Ruby v1.9.3-p194
+- [Bunlder](http://gembundler.com)
+- [ImageMagick](https://github.com/thoughtbot/paperclip#image-processor) (required for PaperClip to work)
+
+##Installation
+
+From terminal:
+    git clone git@github.com:mklickman/rails-boilerplate.git
+    cd rails-bp
+    bundle install
+    bundle exec compass init rails
+    rails generate ie_conditional_tag:install
+
+Also, your app name will be set to "RailsBp", so you'll have to change any instance of 'RailsBp' to whatever you want your app to be called. Quit whining, I'll write a script for that soon enough.
+
+##Still To Do
+- Add staging environment
+- Automate app renaming process (see above)
+
+##Legal
+
+I don't claim to be a Rails expert, so if you have issues, comments, suggestions, or bug fixes feel free to let me know. Forks & pull requests are cool too.
