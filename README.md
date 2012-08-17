@@ -15,18 +15,27 @@
 - Ruby v1.9.3-p194
 - [Bunlder](http://gembundler.com)
 - [ImageMagick](https://github.com/thoughtbot/paperclip#image-processor) (required for PaperClip to work)
+- Local PostgreSQL server
+    - [great setup how-to on Stack Overflow](http://stackoverflow.com/a/2277470/1179583) if you're new to this
 
 ##Installation
 
-From terminal:
+1. From terminal:
 
-    git clone git@github.com:mklickman/rails-boilerplate.git
-    cd rails-bp
-    bundle install
-    bundle exec compass init rails
-    rails generate ie_conditional_tag:install
+        git clone git@github.com:mklickman/rails-boilerplate.git
+        cd rails-bp
+        bundle install
+        bundle exec compass init rails
+        rails generate ie_conditional_tag:install
 
-Also, your app name will be set to "RailsBp", so you'll have to change any instance of 'RailsBp' to whatever you want your app to be called. Quit whining, I'll write a script for that soon enough.
+2. Create your local database
+
+    - By default, the app will be looking for "rails-bp_*" (where "*" is your environment). Edit your database.yml file if you want to use different db names.
+    - I recommend using [Navicat](http://www.navicat.com) for managing your databases (free version [here](http://download.cnet.com/Navicat-Lite-Free-Multiple-Database-GUI/3000-10254_4-11748973.html))
+
+3. Party like it's 1999
+
+*NOTE: your app name will be set to "RailsBp", so you'll have to change any instance of 'RailsBp' to whatever you want your app to be called (in application.rb, for example). Quit whining, I'll write a script for that soon enough.*
 
 ##Still To Do
 - Add staging environment
